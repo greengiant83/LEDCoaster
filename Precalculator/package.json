@@ -1,0 +1,15 @@
+{
+  "name": "precalculator",
+  "version": "1.0.0",
+  "description": "precalculates force values for the arduino based on line segment angle",
+  "main": "app.js",
+  "dependencies": {
+    "vectorious": "^2.2.1"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "matt bell",
+  "license": "ISC"
+}
