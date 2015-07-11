@@ -3,19 +3,7 @@ var vectorious = require('vectorious'),
     Vector = vectorious.Vector,
     Matrix = vectorious.Matrix;
 
-var gravity = new Vector(0, 1); //gravity
-
-/*console.log("right: ", getAcceleration(new Vector(1, 0)));
-console.log("right up: ", getAcceleration(new Vector(1, 1)));
-console.log("up: ", getAcceleration(new Vector(0, 1)));
-console.log("left up: ", getAcceleration(new Vector(-1, 1)));
-console.log("left: ", getAcceleration(new Vector(-1, 0)));
-console.log("left down: ", getAcceleration(new Vector(-1, -1)));
-console.log("down: ", getAcceleration(new Vector(0, -1)));
-console.log("right down: ", getAcceleration(new Vector(1, -1)));
-console.log("just right of up: ", getAcceleration(new Vector(0.1, 1)));
-console.log("just up of right: ", getAcceleration(new Vector(1, 0.1)));*/
-
+var gravity = new Vector(0, 1); 
 var coordinates = getAbsoluteCoordinates();
 var path = analysePath(coordinates);
 var precalc = getPrecalc(path, 150); //
